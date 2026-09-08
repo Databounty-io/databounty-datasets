@@ -53,4 +53,4 @@ Contributions are submitted and reviewed through [DataBounty](https://databounty
 
 This repository is intentionally limited to released dataset artifacts. Do not commit access tokens, application configuration, unpublished submissions, or personal data. Publication credentials are held only by DataBounty's deployment secret manager.
 
-Questions about a release or this catalogue: [cipher@databounty.io](mailto:cipher@databounty.io).
+Questions about a release or this catalogue: [support@databounty.io](mailto:support@databounty.io).
