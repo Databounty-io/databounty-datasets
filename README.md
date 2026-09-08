@@ -1,56 +1,56 @@
 # DataBounty Datasets
 
-This repository is DataBounty's GitHub catalogue of published community datasets. Each dataset has its own
-folder under [`datasets/`](datasets/), with a human-readable description, a machine-readable manifest, its
-license, and the public training/evaluation items.
+> Open, community-built coding datasets — released with clear provenance, licensing, and contributor credit.
 
-The same released data is also available on Hugging Face. GitHub is the browsable source and version history;
-Hugging Face is the primary distribution endpoint for dataset tooling and large-file access.
+[DataBounty](https://databounty.io) is a community programme for building useful datasets. This repository is the public GitHub catalogue for released dataset artifacts. For browsing and large-file tooling, each release is also available on [Hugging Face](https://huggingface.co/databounty-io).
+
+## What is published
+
+Every dataset folder contains only the artifacts approved for that release:
+
+- accepted contributor items;
+- a human-readable dataset card;
+- a machine-readable manifest with counts, provenance, licence, and attribution metadata; and
+- the dataset's licence text when it is bundled.
+
+Sponsor reference material, unpublished submissions, review evidence, credentials, personal data, and application code are never published here.
 
 ## Published datasets
 
-| Dataset | Public contributor items | GitHub folder | Hugging Face |
+| Dataset | Released contributor items | GitHub | Hugging Face |
 |---|---:|---|---|
-| Python Execution Trace & Output Prediction | 1,000 | [Open folder](datasets/python-execution-trace-output-prediction-cmskdimp/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-execution-trace-output-prediction-cmskdimp) |
-| Python Data Transformation Scripts | 1,000 | [Open folder](datasets/python-data-transformation-scripts-cmskdijz/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-data-transformation-scripts-cmskdijz) |
-| Extract Metrics from Log Fixtures | 1,000 | [Open folder](datasets/extract-metrics-from-log-fixtures-cmskdlip/) | [Open dataset](https://huggingface.co/datasets/databounty-io/extract-metrics-from-log-fixtures-cmskdlip) |
+| Python Execution Trace & Output Prediction | 1,000 | [Browse files](datasets/python-execution-trace-output-prediction-cmskdimp/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-execution-trace-output-prediction-cmskdimp) |
+| Python Data Transformation Scripts | 1,000 | [Browse files](datasets/python-data-transformation-scripts-cmskdijz/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-data-transformation-scripts-cmskdijz) |
+| Extract Metrics from Log Fixtures | 1,000 | [Browse files](datasets/extract-metrics-from-log-fixtures-cmskdlip/) | [Open dataset](https://huggingface.co/datasets/databounty-io/extract-metrics-from-log-fixtures-cmskdlip) |
 
 ## Repository layout
 
 ```text
 datasets/
   <dataset-slug>/
-    README.md          Dataset purpose, scope, contributors, and licence
+    README.md          Purpose, scope, source notes, and contributor credits
     data/items.jsonl   One accepted contributor item per line
-    manifest.json      Provenance, counts, schema, and release metadata
-    LICENSE            Licence for that dataset
+    manifest.json      Release metadata, counts, provenance, and integrity fields
+    LICENSE            Licence for this dataset, where bundled
 ```
 
-`data/items.jsonl` contains accepted contributor items only. Sponsor reference examples, unpublished uploads,
-review evidence, credentials, and application code are never stored in this repository.
+### Using a release
 
-`manifest.json` is the authoritative machine-readable record for a release. It includes the release count,
-dataset contract, contributor attribution, licence, and integrity metadata. The publication pipeline keeps the
-JSONL and manifest aligned with the matching Hugging Face release once both provider pushes have completed.
+- Read the dataset folder's `README.md` before use; its stated licence and scope apply to that release.
+- Use `data/items.jsonl` as the released item stream. Each line is one JSON object.
+- Treat `manifest.json` as the authoritative machine-readable release record. It records the accepted-item count, dataset contract, contributor-credit policy, licence, and release metadata.
+- Use the matching Hugging Face dataset for common dataset-tooling workflows and larger-file access.
 
-## How publication works
+## Release and correction policy
 
-DataBounty publishes a dataset only after its items have completed validation, review, and publication approval.
-The publication service writes only the affected `datasets/<dataset-slug>/` folder, so publishing or retracting
-one dataset does not modify the others. Retraction removes that folder in a normal Git commit, preserving an
-auditable history.
+DataBounty publishes only release-approved community artifacts. A release is folder-scoped: adding, correcting, or retracting one dataset never replaces another dataset's files.
 
-## Contributing
+If you find a metadata error, licensing concern, broken link, or need to request a correction or withdrawal, please [open an issue](https://github.com/Databounty-io/databounty-datasets/issues/new) without including credentials, private data, or unpublished material.
 
-Contributions are submitted and reviewed through DataBounty, not through pull requests to this repository.
-Each published dataset folder credits the contributors included in that release. To report a metadata error,
-licensing concern, broken link, or withdrawal request, open an issue without including private data,
-credentials, or unpublished material.
+Contributions are submitted and reviewed through [DataBounty](https://databounty.io), not through pull requests to this catalogue repository.
 
-For publication or repository questions, contact [DataBounty](mailto:cipher@databounty.io).
+## Security and privacy boundary
 
-## Security and scope
+This repository is intentionally limited to released dataset artifacts. Do not commit access tokens, application configuration, unpublished submissions, or personal data. Publication credentials are held only by DataBounty's deployment secret manager.
 
-This repository is for released dataset artifacts only. Do not commit access tokens, personal data, unpublished
-submissions, or application configuration. Publication credentials belong only in the API deployment's secret
-manager.
+Questions about a release or this catalogue: [cipher@databounty.io](mailto:cipher@databounty.io).
