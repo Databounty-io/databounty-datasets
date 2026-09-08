@@ -1,0 +1,25 @@
+name: Licensing question
+description: Ask about the licence or attribution for a released public dataset artifact.
+title: "[Licensing]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Public dataset URL or file path
+      placeholder: https://github.com/Databounty-io/databounty-datasets/...
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: State the licence or attribution question as precisely as possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safe disclosure
+      options:
+        - label: I have not included credentials, personal data, unpublished submissions, or sponsor reference material.
+          required: true

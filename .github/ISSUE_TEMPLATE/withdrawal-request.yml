@@ -1,0 +1,25 @@
+name: Correction or withdrawal request
+description: Request review of a released public artifact that may need correction, removal, or retraction.
+title: "[Withdrawal]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Public dataset URL or file path
+      placeholder: https://github.com/Databounty-io/databounty-datasets/...
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request and reason
+      description: Explain the public artifact concerned and why it should be reviewed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safe disclosure
+      options:
+        - label: I have not included credentials, personal data, unpublished submissions, or sponsor reference material.
+          required: true

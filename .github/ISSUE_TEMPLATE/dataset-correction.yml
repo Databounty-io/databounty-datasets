@@ -1,0 +1,37 @@
+name: Dataset correction
+description: Report a factual error in a released public dataset artifact or its metadata.
+title: "[Correction]: "
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - Python Execution Trace & Output Prediction
+        - Python Data Transformation Scripts
+        - Extract Metrics from Log Fixtures
+        - Another released DataBounty dataset
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Public file or URL
+      description: Link to the affected released file, manifest field, or README section.
+      placeholder: https://github.com/Databounty-io/databounty-datasets/...
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should be corrected?
+      description: Describe the factual issue and the correction you believe is needed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safe disclosure
+      options:
+        - label: I have not included credentials, personal data, unpublished submissions, or sponsor reference material.
+          required: true
