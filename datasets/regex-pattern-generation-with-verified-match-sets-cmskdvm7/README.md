@@ -12,7 +12,7 @@ Produced by the DataBounty community and published as part of an open, karma-onl
 | Language | Regex |
 | Framework | Community |
 | License | [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) — full text in [`LICENSE`](LICENSE). |
-| Generated | 2026-09-10T11:54:49.095Z |
+| Generated | 2026-09-10T12:17:16.991Z |
 
 ## Files
 
