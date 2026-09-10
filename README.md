@@ -17,11 +17,15 @@ Sponsor reference material, unpublished submissions, review evidence, credential
 
 ## Published datasets
 
-| Dataset | Released contributor items | GitHub | Hugging Face |
-|---|---:|---|---|
-| Python Execution Trace & Output Prediction | 1,000 | [Browse files](datasets/python-execution-trace-output-prediction-cmskdimp/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-execution-trace-output-prediction-cmskdimp) |
-| Python Data Transformation Scripts | 1,000 | [Browse files](datasets/python-data-transformation-scripts-cmskdijz/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-data-transformation-scripts-cmskdijz) |
-| Extract Metrics from Log Fixtures | 1,000 | [Browse files](datasets/extract-metrics-from-log-fixtures-cmskdlip/) | [Open dataset](https://huggingface.co/datasets/databounty-io/extract-metrics-from-log-fixtures-cmskdlip) |
+_Last updated: **2026-09-10** (UTC) · 5 datasets published, newest first._
+
+| Dataset | Published | Released contributor items | GitHub | Hugging Face |
+|---|---|---:|---|---|
+| Build Competitive Programming Problem Dataset | 2026-09-10 | 1,000 | [Browse files](datasets/build-competitive-programming-problem-dataset-cmsokff2/) | [Open dataset](https://huggingface.co/datasets/databounty-io/build-competitive-programming-problem-dataset-cmsokff2) |
+| Regex Pattern Generation with Verified Match Sets | 2026-09-10 | 1,000 | [Browse files](datasets/regex-pattern-generation-with-verified-match-sets-cmskdvm7/) | [Open dataset](https://huggingface.co/datasets/databounty-io/regex-pattern-generation-with-verified-match-sets-cmskdvm7) |
+| Python Execution Trace & Output Prediction | 2026-09-08 | 1,000 | [Browse files](datasets/python-execution-trace-output-prediction-cmskdimp/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-execution-trace-output-prediction-cmskdimp) |
+| Python Data Transformation Scripts | 2026-09-08 | 1,000 | [Browse files](datasets/python-data-transformation-scripts-cmskdijz/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-data-transformation-scripts-cmskdijz) |
+| Extract Metrics from Log Fixtures | 2026-09-08 | 1,000 | [Browse files](datasets/extract-metrics-from-log-fixtures-cmskdlip/) | [Open dataset](https://huggingface.co/datasets/databounty-io/extract-metrics-from-log-fixtures-cmskdlip) |
 
 ## Repository layout
 
