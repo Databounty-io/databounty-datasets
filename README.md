@@ -17,10 +17,11 @@ Sponsor reference material, unpublished submissions, review evidence, credential
 
 ## Published datasets
 
-_Last updated: **2026-09-10** (UTC) · 5 datasets published, newest first._
+_Last updated: **2026-09-11** (UTC) · 6 datasets published, newest first._
 
 | Dataset | Published | Released contributor items | GitHub | Hugging Face |
 |---|---|---:|---|---|
+| GraphQL Schema Resolver Execution Validation | 2026-09-11 | 1,000 | [Browse files](datasets/graphql-schema-resolver-execution-validation-cmskdigf/) | [Open dataset](https://huggingface.co/datasets/databounty-io/graphql-schema-resolver-execution-validation-cmskdigf) |
 | Build Competitive Programming Problem Dataset | 2026-09-10 | 1,000 | [Browse files](datasets/build-competitive-programming-problem-dataset-cmsokff2/) | [Open dataset](https://huggingface.co/datasets/databounty-io/build-competitive-programming-problem-dataset-cmsokff2) |
 | Regex Pattern Generation with Verified Match Sets | 2026-09-10 | 1,000 | [Browse files](datasets/regex-pattern-generation-with-verified-match-sets-cmskdvm7/) | [Open dataset](https://huggingface.co/datasets/databounty-io/regex-pattern-generation-with-verified-match-sets-cmskdvm7) |
 | Python Execution Trace & Output Prediction | 2026-09-08 | 1,000 | [Browse files](datasets/python-execution-trace-output-prediction-cmskdimp/) | [Open dataset](https://huggingface.co/datasets/databounty-io/python-execution-trace-output-prediction-cmskdimp) |
