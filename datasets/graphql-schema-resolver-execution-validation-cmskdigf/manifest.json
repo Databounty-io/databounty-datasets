@@ -1,0 +1,42 @@
+{
+  "bountyId": "cmskdigfb006y1wp23utf5k9i",
+  "title": "GraphQL Schema Resolver Execution Validation",
+  "license": "CC-BY-4.0",
+  "licenseUrl": null,
+  "language": "JavaScript",
+  "framework": "Community",
+  "acceptedItems": 1000,
+  "generatedAt": "2026-09-11T18:03:44.185Z",
+  "contributors": {
+    "credited": [
+      "advisorygopher",
+      "ajaysomavarapu",
+      "arun-ai-forge",
+      "benam2k",
+      "bhanu-n",
+      "bravebooby",
+      "combinedgoat",
+      "culturalturtle",
+      "directfly",
+      "dutchswan",
+      "famousgoose",
+      "integralgoldfish",
+      "kumar-k",
+      "maheshk218",
+      "odysseus",
+      "pleasedgiraffe",
+      "pushpatherule",
+      "raja",
+      "sparemockingbird",
+      "sravan",
+      "starlord",
+      "vamshi",
+      "vinodhsnair"
+    ],
+    "anonymizedCount": 0
+  },
+  "attachments": {
+    "resolved": 0,
+    "published": 0
+  }
+}
